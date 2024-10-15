@@ -12,7 +12,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.12'  # Replace with the appropriate version
+          python-version: '3.12'
 
       - name: Install dependencies
         run: |
@@ -21,4 +21,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest tests/  # Adjust if your test files are in a different directory
+          pytest tests/  # Make sure this matches the directory name
